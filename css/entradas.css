@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #2f2922;
+  color: #fff;
+  padding: 1rem;
+}
+header .imageheader {
+  height: 50px;
+  margin-right: 10px;
+  float: left;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+.navbar ul li {
+  display: inline;
+  margin-right: 6px;
+}
+.navbar ul lia:hover {
+  text-decoration: underline;
+}
+
+.events {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.event-card {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.event-card:hover {
+  transform: scale(1.05);
+}
+.event-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.event-card .event-info {
+  padding: 10px;
+  text-align: center;
+}
+.event-card .event-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.event-card .event-info p {
+  font-size: 1rem;
+  color: #555;
+  padding: 15px;
+}
+.event-card .event-info .event-date {
+  color: #777;
+}
+
+footer {
+  background-color: #2f2922;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+footer ul {
+  list-style-type: none;
+  margin: 6px 0;
+}
+footer ul li {
+  display: inline;
+  margin-right: 6px;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=entradas.css.map */
